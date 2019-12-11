@@ -6,4 +6,8 @@ Molecular gastronomy, the scientific discipline concerned with the physical and 
 
 Screenshots:
 ![Main page](https://i.imgur.com/zZfea7P.jpg)
+![Dropdown menu](https://i.imgur.com/789FMqO.jpg)
+![Video page](https://i.imgur.com/lT5nMiS.jpg)
+![Sign up page](https://i.imgur.com/A573Aej.jpg)
+
 
