@@ -1,0 +1,528 @@
+body {
+  background-image: url("https://eatogether.org/wp-content/uploads/2017/01/53786961_l.jpg");
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+header {
+	position: fixed;
+	z-index: 100;
+   width: 1055px; 
+   height: 120px;
+   background-color: black;
+
+}
+#block-body {
+  width: 1055px;
+  height: 5px auto;
+  margin: auto;
+    
+}
+
+.logo {
+    width: 19px;
+    float: left;
+    height: 30px;
+}
+.logo a {
+    display: block;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    color:  #ffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.top-menu {
+  display :block;
+    width: 780px;
+    height: 100px;
+    float: right;
+}
+
+.top-menu ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+  
+}
+.top-menu ul li a {
+    display: block;
+    width: 180px;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: white;
+    height: 120px;
+    text-decoration: none;
+    cursor: pointer;
+    padding-top: 47px;
+}
+.top-menu ul li a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    background: #00ADE4;
+}
+.visibleMenu {
+    width: 360px;
+    height: 220px;
+    margin-top: 80px;
+    background: black;
+    opacity: 0.8;
+    display: none;
+    position: absolute;
+    z-index: 100;
+}
+.subMenu {
+    float: center;
+    margin-left: 0px;
+}
+
+.subMenu ul li {
+    float: none;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+   
+
+}
+.subMenu ul li a {
+    display: block;
+    width: 280px;
+    height: 30px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.article  {
+	opacity: 0.9;
+	background: black;
+	padding: 27px;
+	width: 1000px;
+	height: auto;
+	text-align: center;
+	margin: 0px;
+	position: absolute;
+	top:100%;
+	left: 50%;
+	transform: translate(-50%, -15%);
+}
+
+.first{
+    opacity: 1;
+    background: black;
+    padding: 27px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translate(-50%, -37%);
+
+}
+.second{
+    opacity: 1;
+    background: black;
+    padding: 27px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+
+}
+.third{
+    opacity: 1;
+    background: black;
+    padding: 27px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translate(-50%, -49%);
+
+}
+.fourth{
+    opacity: 1;
+    background: black;
+    padding: 27px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translate(-50%, -46%);
+
+}
+.main{
+    opacity: 1;
+    color : white;
+    font-size : 19px;
+}
+.img{
+  background : "https://cdn.britannica.com/s:700x500/40/146240-050-50E3CDAC/science-gastronomy-concoction-egg-inspirations-nettle-spinach.jpg";
+}
+
+#form-div {
+    background-color:rgba(72,72,72,0.4);
+    padding-left:35px;
+    padding-right:35px;
+    padding-top:50px;
+    padding-bottom:50px;
+    width: 450px;
+    float: left;
+    left: 50%;
+    position: absolute;
+  margin-top:-550px;
+    margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+    color:#3c3c3c;
+  font-weight:500;
+    font-size: 18px;
+    border-radius: 0;
+    line-height: 22px;
+    background-color: #fbfbfb;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+
+
+/* Icons ---------------------------------- */
+#name{
+    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+#Surname{
+    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+
+
+#email{
+    background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+
+#comment{
+    background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+
+
+#button-blue{
+    float:left;
+    width: 100%;
+    border: #fbfbfb solid 4px;
+    cursor:pointer;
+    background-color: #3498db;
+    color:white;
+    font-size:24px;
+    padding-left: 130px;
+    padding-top:22px;
+    padding-bottom:22px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+    background-color: rgba(0,0,0,0);
+    color: #0493bd;
+}
+    
+.submit:hover {
+    color: #3498db;
+}
+    
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media all and (max-width:400px){
+    #block-body {
+        width: 375px;
+        height: 5px auto;
+        margin: auto;
+    }
+    .logo{
+        width: 12px;
+        float: left;
+        height: 15px;
+    }
+    .logo a {
+        display: block;
+        margin-left: 15px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-style: normal;
+        color:  #ffff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .top-menu {
+        display :block;
+        width: 320px;
+        height: 30px;
+        float: right;
+    }
+    .top-menu ul li {
+        list-style: none;
+        float: left;
+        text-align: center;
+  
+    }
+    .top-menu ul li a {
+        display: block;
+        width: 70px;
+        height: 70px;
+        font-size: 10px;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        padding-top: 20px;
+    }
+    .top-menu ul li a:hover {
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition:all 0.5s ease;
+        -moz-transition:all 0.5s ease;
+        background: #00ADE4;
+    }
+    .visibleMenu {
+        width: 150px;
+        height: 110px;
+        margin-top: 50px;
+        background: black;
+        opacity: 0.8;
+        display: none;
+        position: absolute;
+        z-index: 100px;
+    }
+    .subMenu {
+        float: center;
+        margin-left: 0px;
+    }
+
+    .subMenu ul li {
+        float: none;
+        list-style: none;
+        text-align: center;
+        margin-bottom: 10px;
+   
+
+    }
+    .subMenu ul li a {
+        display: block;
+        width: 150px;
+        height: 15px;
+        text-decoration: none;
+        font-size: 12px;
+        color: white;
+        cursor: pointer;
+        padding-top: 0px;
+        margin-left: -40px;
+    }
+    body{
+        width: auto;
+        height: auto;
+        background-image: url("http://wallpaperhubs.com/wp-content/uploads/2019/03/Maple-Dijon-Roasted-Carrots-Wallpaper-375x667.jpg");
+        background-size: 667px 1334px;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+}
+
+    img{
+        height: 150px;
+        width: 200px;
+    }
+    header{
+        position:absolute;
+        z-index: 100;
+        width: 375px; 
+        height: 70px;
+        background-color: black;
+
+    }
+   
+    .article{
+        opacity: 0.9;
+        background: black;
+        padding-right: 15px;
+        padding-left: 25px;
+        width: 360px;
+        height: auto;
+        margin: -180px;
+        text-align: center;
+        position:absolute;
+        top:100%;
+        left: 50%;
+        transform: translate(0%, -8%);
+
+    }
+
+    .article h1{
+        font-size: 20px;
+    }
+    
+    .main{
+        width: 355px;
+        padding: 10px;
+        opacity: 0.9;
+        color : white;
+        margin: -24px;
+        font-size : 14px;
+        }  
+
+    
+    .first{
+        opacity: 1.0;
+        background: black;
+        padding: 27px;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top:100%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+
+    } 
+
+    .ingredients {
+        padding: 10px;
+
+    } 
+    .second{
+    opacity: 1;
+    background: black;
+    padding: 27px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translate(-50%, -26%);
+    }
+    .third{
+    opacity: 1;
+    background: black;
+    padding: 27px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translate(-50%, -27.5%);
+    }
+    .fourth{
+    opacity: 1;
+    background: black;
+    padding: 27px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translate(-50%, -27.2%);
+    }
+    .video{
+        width: 340px;
+        height: 200px;
+    }
+    .youtube{
+        opacity: 1;
+        background: black;
+        padding-right: 25px;
+        padding-left: 11px;
+        width: 360px;
+        height: auto;
+        margin: -180px;
+        text-align: center;
+        position:absolute;
+        top:100%;
+        left: 50%;
+        transform: translate(0%, -15.2%);
+    }
+    #form-div {
+    background-color:rgba(72,72,72,0.4);
+    padding-left:35px;
+    padding-right:35px;
+    padding-top:35px;
+    padding-bottom:100px;
+    width: 355px;
+    height: 450px;
+    float: left;
+    left: 50%;
+    position: absolute;
+  margin-top:-400px;
+    margin-left:-175px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  transform: translate(0%, 5%)
+}
+#button-blue{
+    float:left;
+    width: 50%;
+    height: 40px;
+    border: #fbfbfb solid 4px;
+    cursor:pointer;
+    background-color: #3498db;
+    color:white;
+    font-size:24px;
+    padding-left: 20px;
+    padding-top:22px;
+    padding-bottom:22px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  margin-top:-4px;
+  margin-left: 75px;
+  font-weight:700;
+}
+
+
+
+
+
+
+
+    
+
+}
